@@ -25,7 +25,7 @@ class CardNumber(Enum):
     FIVE = 5
     SIX = 6
     SEVEN = 7
-    HEIGHT = 8
+    EIGHT = 8
     NINE = 9
     TEN = 10
     JACK = 11
