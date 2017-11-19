@@ -80,8 +80,10 @@ class Deck(list):
     def shuffle(self):
         shuffle(self)
 
-    def pick(self):
-        return self.pop()
+    def pick(self, number=1):
+        if number == 1:
+            return self.pop()
+        return (self.pop() for _ in range(number))
 
     def random_pick(self):
         return self.pop(randint(0, len(self) - 1))
