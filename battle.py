@@ -2,7 +2,7 @@
 
 from cards.tools import deck_serve
 
-from cards import Deck
+from cards.base import Deck
 from cards.decks import Deck52
 
 
