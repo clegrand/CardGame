@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "NaturalCardGame"
+version = "0.1.2"
+authors = [
+  { name="Christopher LEGRAND SOULIMANT", email="comachristo22@gmail.com" },
+]
+description = "Simple library for card game"
+readme = "README.md"
+requires-python = ">=3"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/clegrand/CardGame"
